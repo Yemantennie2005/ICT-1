@@ -1,0 +1,14 @@
+a = 10
+b = 5
+additional_result = a + b
+subtraction_result = a - b
+multiplication_result = a * b
+division_result = a / b
+exponentionion_result = a ** b
+modulus_result = a % b
+print(additional_result)
+print(subtraction_result)
+print(multiplication_result)
+print(division_result)
+print(exponentionion_result)
+print(modulus_result)
