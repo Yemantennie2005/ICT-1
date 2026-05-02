@@ -33,3 +33,9 @@ from functools import reduce
 mylist = [1, 2, 3, 4]
 mul = reduce (lambda x, y: x * y, mylist)
 print(mul)
+
+#Student Excercise 
+#positive/negative/zero
+positive_negative_zero = lambda x: "Positive" if x > 0 else "Negative" if x < 0 else "zero"
+num = int(input("Enter your number: "))
+print(positive_negative_zero(num))
